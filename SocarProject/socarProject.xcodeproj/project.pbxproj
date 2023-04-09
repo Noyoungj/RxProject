@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282328CC29BF883F000B032F /* FavoriteZoneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282328CB29BF883F000B032F /* FavoriteZoneEntity.swift */; };
+		282328CE29BF8A3E000B032F /* SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 282328CD29BF8A3E000B032F /* SPM */; };
+		282328D029BFD859000B032F /* SocarZoneDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282328CF29BFD859000B032F /* SocarZoneDataEntity.swift */; };
+		2843EB4029BB4E4F0042EDB3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB3F29BB4E4F0042EDB3 /* OpenGLES.framework */; };
+		2843EB4229BB4E560042EDB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4129BB4E560042EDB3 /* SystemConfiguration.framework */; };
+		2843EB4429BB4E5D0042EDB3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4329BB4E5D0042EDB3 /* CoreLocation.framework */; };
+		2843EB4629BB4E640042EDB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4529BB4E640042EDB3 /* QuartzCore.framework */; };
+		2843EB4829BB4E740042EDB3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4729BB4E6D0042EDB3 /* libc++.tbd */; };
+		2843EB4C29BB4E950042EDB3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4929BB4E7D0042EDB3 /* libxml2.tbd */; };
+		2843EB4D29BB4E9D0042EDB3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EB4A29BB4E850042EDB3 /* libsqlite3.tbd */; };
+		2843EFD529BB51E60042EDB3 /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB029BB51E50042EDB3 /* map_pinup_custom@3x.png */; };
+		2843EFD629BB51E60042EDB3 /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB129BB51E50042EDB3 /* map_pin_custom.png */; };
+		2843EFD729BB51E60042EDB3 /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB229BB51E50042EDB3 /* shadow_balloon.png */; };
+		2843EFD829BB51E60042EDB3 /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB329BB51E50042EDB3 /* map_pinup.png */; };
+		2843EFD929BB51E60042EDB3 /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB429BB51E50042EDB3 /* detail_button.png */; };
+		2843EFDA29BB51E60042EDB3 /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB529BB51E50042EDB3 /* map_pin_custom@3x.png */; };
+		2843EFDB29BB51E60042EDB3 /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB629BB51E50042EDB3 /* map_pinup@3x.png */; };
+		2843EFDC29BB51E60042EDB3 /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB729BB51E50042EDB3 /* map_pin_shadow@3x.png */; };
+		2843EFDD29BB51E60042EDB3 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB829BB51E50042EDB3 /* copyright.png */; };
+		2843EFDE29BB51E60042EDB3 /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFB929BB51E50042EDB3 /* th_line.png */; };
+		2843EFDF29BB51E60042EDB3 /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFBA29BB51E50042EDB3 /* map_pin_red@3x.png */; };
+		2843EFE029BB51E60042EDB3 /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFBB29BB51E50042EDB3 /* daum_copyright.png */; };
+		2843EFE129BB51E60042EDB3 /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFBC29BB51E50042EDB3 /* map_pin@3x.png */; };
+		2843EFE229BB51E60042EDB3 /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFBD29BB51E50042EDB3 /* map_present_tracking.png */; };
+		2843EFE329BB51E60042EDB3 /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFBE29BB51E50042EDB3 /* map_pin_red.png */; };
+		2843EFE429BB51E60042EDB3 /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFC829BB51E50042EDB3 /* info_box.png */; };
+		2843EFE529BB51E60042EDB3 /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFC929BB51E50042EDB3 /* point_sprite.png */; };
+		2843EFE629BB51E60042EDB3 /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCA29BB51E50042EDB3 /* map_pinup_custom.png */; };
+		2843EFE729BB51E60042EDB3 /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCB29BB51E50042EDB3 /* info_box_tail.png */; };
+		2843EFE829BB51E60042EDB3 /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCC29BB51E50042EDB3 /* noimage256.png */; };
+		2843EFE929BB51E60042EDB3 /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCD29BB51E50042EDB3 /* map_present_direction.png */; };
+		2843EFEA29BB51E60042EDB3 /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCE29BB51E50042EDB3 /* map_pin.png */; };
+		2843EFEB29BB51E60042EDB3 /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFCF29BB51E50042EDB3 /* map_present.png */; };
+		2843EFEC29BB51E60042EDB3 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFD029BB51E50042EDB3 /* noimage.png */; };
+		2843EFED29BB51E60042EDB3 /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFD129BB51E50042EDB3 /* map_present_background_update.png */; };
+		2843EFEE29BB51E60042EDB3 /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFD229BB51E50042EDB3 /* daum_th_line.png */; };
+		2843EFEF29BB51E60042EDB3 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2843EFD329BB51E50042EDB3 /* map_pin_shadow.png */; };
+		2843EFF029BB51E60042EDB3 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2843EFD429BB51E50042EDB3 /* DaumMap.framework */; };
+		2857E25929BB8EBE001E5FE0 /* SocarZonesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857E25829BB8EBE001E5FE0 /* SocarZonesModel.swift */; };
+		2857E25B29BB9016001E5FE0 /* ZonesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857E25A29BB9016001E5FE0 /* ZonesService.swift */; };
+		2857E25E29BB9941001E5FE0 /* MainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857E25D29BB9941001E5FE0 /* MainAPI.swift */; };
+		2857E26029BB9DDE001E5FE0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857E25F29BB9DDE001E5FE0 /* MapViewModel.swift */; };
+		28943ABE29BB36FA00DF6118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943ABD29BB36FA00DF6118 /* AppDelegate.swift */; };
+		28943AC029BB36FA00DF6118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943ABF29BB36FA00DF6118 /* SceneDelegate.swift */; };
+		28943AC829BB36FA00DF6118 /* SocarProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28943AC629BB36FA00DF6118 /* SocarProject.xcdatamodeld */; };
+		28943ACA29BB36FB00DF6118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28943AC929BB36FB00DF6118 /* Assets.xcassets */; };
+		28943ACD29BB36FB00DF6118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28943ACB29BB36FB00DF6118 /* LaunchScreen.storyboard */; };
+		28943AD829BB36FB00DF6118 /* SocarProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AD729BB36FB00DF6118 /* SocarProjectTests.swift */; };
+		28943AE229BB36FB00DF6118 /* SocarProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AE129BB36FB00DF6118 /* SocarProjectUITests.swift */; };
+		28943AE429BB36FB00DF6118 /* SocarProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AE329BB36FB00DF6118 /* SocarProjectUITestsLaunchTests.swift */; };
+		28943AF329BB372D00DF6118 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AF229BB372D00DF6118 /* BaseViewController.swift */; };
+		28943AF829BB3E7100DF6118 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AF729BB3E7100DF6118 /* MainCoordinator.swift */; };
+		28943AFB29BB3EC900DF6118 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28943AFA29BB3EC900DF6118 /* MapViewController.swift */; };
+		28A789A429BF4049009C47BB /* SocarZoneHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A789A329BF4049009C47BB /* SocarZoneHeaderView.swift */; };
+		28A789A629BF78BA009C47BB /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A789A529BF78BA009C47BB /* FavoriteTableViewCell.swift */; };
+		28B6F96129BC4BAD00B83686 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6F96029BC4BAD00B83686 /* UIColor+.swift */; };
+		28B6F96529BDA47100B83686 /* ZonesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6F96429BDA47100B83686 /* ZonesEntity.swift */; };
+		28D0F83E29BDFD00007E0064 /* Reactive+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F83D29BDFD00007E0064 /* Reactive+.swift */; };
+		28D0F84229BE0602007E0064 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84129BE0602007E0064 /* FavoriteViewController.swift */; };
+		28D0F84529BE1442007E0064 /* SocarZonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84429BE1442007E0064 /* SocarZonesViewController.swift */; };
+		28D0F84729BE17AD007E0064 /* ZoneHaveCarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84629BE17AD007E0064 /* ZoneHaveCarsModel.swift */; };
+		28D0F84929BE19F7007E0064 /* ZoneCarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84829BE19F7007E0064 /* ZoneCarsService.swift */; };
+		28D0F84B29BE1ACE007E0064 /* ZoneCarsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84A29BE1ACE007E0064 /* ZoneCarsEntity.swift */; };
+		28D0F84D29BE1B43007E0064 /* ZoneCarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84C29BE1B43007E0064 /* ZoneCarsViewModel.swift */; };
+		28D0F84F29BF1FA7007E0064 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F84E29BF1FA7007E0064 /* UIFont+.swift */; };
+		28D0F85129BF2844007E0064 /* CarInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F85029BF2844007E0064 /* CarInfoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28943AD429BB36FB00DF6118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28943AB229BB36FA00DF6118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28943AB929BB36FA00DF6118;
+			remoteInfo = SocarProject;
+		};
+		28943ADE29BB36FB00DF6118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28943AB229BB36FA00DF6118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28943AB929BB36FA00DF6118;
+			remoteInfo = SocarProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282328CB29BF883F000B032F /* FavoriteZoneEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteZoneEntity.swift; sourceTree = "<group>"; };
+		282328CF29BFD859000B032F /* SocarZoneDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarZoneDataEntity.swift; sourceTree = "<group>"; };
+		2843EB3F29BB4E4F0042EDB3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2843EB4129BB4E560042EDB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2843EB4329BB4E5D0042EDB3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2843EB4529BB4E640042EDB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2843EB4729BB4E6D0042EDB3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2843EB4929BB4E7D0042EDB3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		2843EB4A29BB4E850042EDB3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2843EB4B29BB4E8D0042EDB3 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		2843EFB029BB51E50042EDB3 /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		2843EFB129BB51E50042EDB3 /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		2843EFB229BB51E50042EDB3 /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		2843EFB329BB51E50042EDB3 /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		2843EFB429BB51E50042EDB3 /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		2843EFB529BB51E50042EDB3 /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		2843EFB629BB51E50042EDB3 /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		2843EFB729BB51E50042EDB3 /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		2843EFB829BB51E50042EDB3 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		2843EFB929BB51E50042EDB3 /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		2843EFBA29BB51E50042EDB3 /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		2843EFBB29BB51E50042EDB3 /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		2843EFBC29BB51E50042EDB3 /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		2843EFBD29BB51E50042EDB3 /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		2843EFBE29BB51E50042EDB3 /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		2843EFC029BB51E50042EDB3 /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		2843EFC129BB51E50042EDB3 /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		2843EFC229BB51E50042EDB3 /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		2843EFC329BB51E50042EDB3 /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		2843EFC429BB51E50042EDB3 /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		2843EFC529BB51E50042EDB3 /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		2843EFC629BB51E50042EDB3 /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		2843EFC729BB51E50042EDB3 /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		2843EFC829BB51E50042EDB3 /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		2843EFC929BB51E50042EDB3 /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		2843EFCA29BB51E50042EDB3 /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		2843EFCB29BB51E50042EDB3 /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		2843EFCC29BB51E50042EDB3 /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		2843EFCD29BB51E50042EDB3 /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		2843EFCE29BB51E50042EDB3 /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		2843EFCF29BB51E50042EDB3 /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		2843EFD029BB51E50042EDB3 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		2843EFD129BB51E50042EDB3 /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		2843EFD229BB51E50042EDB3 /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		2843EFD329BB51E50042EDB3 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		2843EFD429BB51E50042EDB3 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		2843EFF129BB52070042EDB3 /* KakaoMapBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoMapBridgeHeader.h; sourceTree = "<group>"; };
+		2857E25829BB8EBE001E5FE0 /* SocarZonesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarZonesModel.swift; sourceTree = "<group>"; };
+		2857E25A29BB9016001E5FE0 /* ZonesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonesService.swift; sourceTree = "<group>"; };
+		2857E25D29BB9941001E5FE0 /* MainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPI.swift; sourceTree = "<group>"; };
+		2857E25F29BB9DDE001E5FE0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		28943ABA29BB36FA00DF6118 /* SocarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28943ABD29BB36FA00DF6118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28943ABF29BB36FA00DF6118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28943AC729BB36FA00DF6118 /* SocarProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocarProject.xcdatamodel; sourceTree = "<group>"; };
+		28943AC929BB36FB00DF6118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28943ACC29BB36FB00DF6118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28943ACE29BB36FB00DF6118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28943AD329BB36FB00DF6118 /* SocarProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocarProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28943AD729BB36FB00DF6118 /* SocarProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarProjectTests.swift; sourceTree = "<group>"; };
+		28943ADD29BB36FB00DF6118 /* SocarProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocarProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28943AE129BB36FB00DF6118 /* SocarProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarProjectUITests.swift; sourceTree = "<group>"; };
+		28943AE329BB36FB00DF6118 /* SocarProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28943AF229BB372D00DF6118 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		28943AF729BB3E7100DF6118 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		28943AFA29BB3EC900DF6118 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		28A7899C29BF32FF009C47BB /* SPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SPM; path = ../SPM; sourceTree = "<group>"; };
+		28A789A329BF4049009C47BB /* SocarZoneHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarZoneHeaderView.swift; sourceTree = "<group>"; };
+		28A789A529BF78BA009C47BB /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		28A789A829BF7F6E009C47BB /* SPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SPM; path = ../SPM; sourceTree = "<group>"; };
+		28B6F96029BC4BAD00B83686 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		28B6F96429BDA47100B83686 /* ZonesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonesEntity.swift; sourceTree = "<group>"; };
+		28D0F83D29BDFD00007E0064 /* Reactive+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+.swift"; sourceTree = "<group>"; };
+		28D0F84129BE0602007E0064 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		28D0F84429BE1442007E0064 /* SocarZonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocarZonesViewController.swift; sourceTree = "<group>"; };
+		28D0F84629BE17AD007E0064 /* ZoneHaveCarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneHaveCarsModel.swift; sourceTree = "<group>"; };
+		28D0F84829BE19F7007E0064 /* ZoneCarsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneCarsService.swift; sourceTree = "<group>"; };
+		28D0F84A29BE1ACE007E0064 /* ZoneCarsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneCarsEntity.swift; sourceTree = "<group>"; };
+		28D0F84C29BE1B43007E0064 /* ZoneCarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneCarsViewModel.swift; sourceTree = "<group>"; };
+		28D0F84E29BF1FA7007E0064 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		28D0F85029BF2844007E0064 /* CarInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28943AB729BB36FA00DF6118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282328CE29BF8A3E000B032F /* SPM in Frameworks */,
+				2843EB4829BB4E740042EDB3 /* libc++.tbd in Frameworks */,
+				2843EB4629BB4E640042EDB3 /* QuartzCore.framework in Frameworks */,
+				2843EFF029BB51E60042EDB3 /* DaumMap.framework in Frameworks */,
+				2843EB4D29BB4E9D0042EDB3 /* libsqlite3.tbd in Frameworks */,
+				2843EB4429BB4E5D0042EDB3 /* CoreLocation.framework in Frameworks */,
+				2843EB4C29BB4E950042EDB3 /* libxml2.tbd in Frameworks */,
+				2843EB4229BB4E560042EDB3 /* SystemConfiguration.framework in Frameworks */,
+				2843EB4029BB4E4F0042EDB3 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943AD029BB36FB00DF6118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943ADA29BB36FB00DF6118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2843EB3E29BB4E4E0042EDB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A7899C29BF32FF009C47BB /* SPM */,
+				2843EB4B29BB4E8D0042EDB3 /* libxml2.2.tbd */,
+				2843EB4A29BB4E850042EDB3 /* libsqlite3.tbd */,
+				2843EB4929BB4E7D0042EDB3 /* libxml2.tbd */,
+				2843EB4729BB4E6D0042EDB3 /* libc++.tbd */,
+				2843EB4529BB4E640042EDB3 /* QuartzCore.framework */,
+				2843EB4329BB4E5D0042EDB3 /* CoreLocation.framework */,
+				2843EB4129BB4E560042EDB3 /* SystemConfiguration.framework */,
+				2843EB3F29BB4E4F0042EDB3 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2843EFAE29BB51E50042EDB3 /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				2843EFAF29BB51E50042EDB3 /* Resources */,
+				2843EFD429BB51E50042EDB3 /* DaumMap.framework */,
+			);
+			path = DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		2843EFAF29BB51E50042EDB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2843EFB029BB51E50042EDB3 /* map_pinup_custom@3x.png */,
+				2843EFB129BB51E50042EDB3 /* map_pin_custom.png */,
+				2843EFB229BB51E50042EDB3 /* shadow_balloon.png */,
+				2843EFB329BB51E50042EDB3 /* map_pinup.png */,
+				2843EFB429BB51E50042EDB3 /* detail_button.png */,
+				2843EFB529BB51E50042EDB3 /* map_pin_custom@3x.png */,
+				2843EFB629BB51E50042EDB3 /* map_pinup@3x.png */,
+				2843EFB729BB51E50042EDB3 /* map_pin_shadow@3x.png */,
+				2843EFB829BB51E50042EDB3 /* copyright.png */,
+				2843EFB929BB51E50042EDB3 /* th_line.png */,
+				2843EFBA29BB51E50042EDB3 /* map_pin_red@3x.png */,
+				2843EFBB29BB51E50042EDB3 /* daum_copyright.png */,
+				2843EFBC29BB51E50042EDB3 /* map_pin@3x.png */,
+				2843EFBD29BB51E50042EDB3 /* map_present_tracking.png */,
+				2843EFBE29BB51E50042EDB3 /* map_pin_red.png */,
+				2843EFBF29BB51E50042EDB3 /* Headers */,
+				2843EFC829BB51E50042EDB3 /* info_box.png */,
+				2843EFC929BB51E50042EDB3 /* point_sprite.png */,
+				2843EFCA29BB51E50042EDB3 /* map_pinup_custom.png */,
+				2843EFCB29BB51E50042EDB3 /* info_box_tail.png */,
+				2843EFCC29BB51E50042EDB3 /* noimage256.png */,
+				2843EFCD29BB51E50042EDB3 /* map_present_direction.png */,
+				2843EFCE29BB51E50042EDB3 /* map_pin.png */,
+				2843EFCF29BB51E50042EDB3 /* map_present.png */,
+				2843EFD029BB51E50042EDB3 /* noimage.png */,
+				2843EFD129BB51E50042EDB3 /* map_present_background_update.png */,
+				2843EFD229BB51E50042EDB3 /* daum_th_line.png */,
+				2843EFD329BB51E50042EDB3 /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2843EFBF29BB51E50042EDB3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2843EFC029BB51E50042EDB3 /* MTMapPOIItem.h */,
+				2843EFC129BB51E50042EDB3 /* MTMapCameraUpdate.h */,
+				2843EFC229BB51E50042EDB3 /* MTMapReverseGeoCoder.h */,
+				2843EFC329BB51E50042EDB3 /* MTMapPolyline.h */,
+				2843EFC429BB51E50042EDB3 /* MTMapLocationMarkerItem.h */,
+				2843EFC529BB51E50042EDB3 /* MTMapView.h */,
+				2843EFC629BB51E50042EDB3 /* MTMapGeometry.h */,
+				2843EFC729BB51E50042EDB3 /* MTMapCircle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2857E25529BB8D24001E5FE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2857E25829BB8EBE001E5FE0 /* SocarZonesModel.swift */,
+				28D0F84629BE17AD007E0064 /* ZoneHaveCarsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2857E25629BB8D41001E5FE0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2857E25A29BB9016001E5FE0 /* ZonesService.swift */,
+				28D0F84829BE19F7007E0064 /* ZoneCarsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2857E25729BB8D46001E5FE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2857E25F29BB9DDE001E5FE0 /* MapViewModel.swift */,
+				28D0F84C29BE1B43007E0064 /* ZoneCarsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2857E25C29BB991A001E5FE0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2857E25D29BB9941001E5FE0 /* MainAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		28943AB129BB36FA00DF6118 = {
+			isa = PBXGroup;
+			children = (
+				28A789A729BF7F6E009C47BB /* Packages */,
+				28943ABC29BB36FA00DF6118 /* SocarProject */,
+				28943AD629BB36FB00DF6118 /* SocarProjectTests */,
+				28943AE029BB36FB00DF6118 /* SocarProjectUITests */,
+				28943ABB29BB36FA00DF6118 /* Products */,
+				2843EB3E29BB4E4E0042EDB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28943ABB29BB36FA00DF6118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28943ABA29BB36FA00DF6118 /* SocarProject.app */,
+				28943AD329BB36FB00DF6118 /* SocarProjectTests.xctest */,
+				28943ADD29BB36FB00DF6118 /* SocarProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28943ABC29BB36FA00DF6118 /* SocarProject */ = {
+			isa = PBXGroup;
+			children = (
+				28D0F84029BDFD8F007E0064 /* Coordinator */,
+				28D0F83B29BDF98C007E0064 /* Entity */,
+				28B6F95E29BC4B7700B83686 /* Configuration */,
+				2843EFAE29BB51E50042EDB3 /* DaumMap.embeddedframework */,
+				2857E25C29BB991A001E5FE0 /* Network */,
+				2857E25629BB8D41001E5FE0 /* Service */,
+				2857E25529BB8D24001E5FE0 /* Model */,
+				2857E25729BB8D46001E5FE0 /* ViewModel */,
+				28943AF929BB3EB400DF6118 /* Controller */,
+				28D0F84329BE0D8E007E0064 /* Views */,
+				28943AF629BB3E5B00DF6118 /* Suport */,
+				28943AF029BB370100DF6118 /* Application */,
+				28943AC929BB36FB00DF6118 /* Assets.xcassets */,
+				28943AC629BB36FA00DF6118 /* SocarProject.xcdatamodeld */,
+				28943ACE29BB36FB00DF6118 /* Info.plist */,
+			);
+			path = SocarProject;
+			sourceTree = "<group>";
+		};
+		28943AD629BB36FB00DF6118 /* SocarProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				28943AD729BB36FB00DF6118 /* SocarProjectTests.swift */,
+			);
+			path = SocarProjectTests;
+			sourceTree = "<group>";
+		};
+		28943AE029BB36FB00DF6118 /* SocarProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28943AE129BB36FB00DF6118 /* SocarProjectUITests.swift */,
+				28943AE329BB36FB00DF6118 /* SocarProjectUITestsLaunchTests.swift */,
+			);
+			path = SocarProjectUITests;
+			sourceTree = "<group>";
+		};
+		28943AF029BB370100DF6118 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				28943ABD29BB36FA00DF6118 /* AppDelegate.swift */,
+				28943ABF29BB36FA00DF6118 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		28943AF129BB372100DF6118 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				28943AF229BB372D00DF6118 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		28943AF629BB3E5B00DF6118 /* Suport */ = {
+			isa = PBXGroup;
+			children = (
+				28943ACB29BB36FB00DF6118 /* LaunchScreen.storyboard */,
+				2843EFF129BB52070042EDB3 /* KakaoMapBridgeHeader.h */,
+			);
+			path = Suport;
+			sourceTree = "<group>";
+		};
+		28943AF929BB3EB400DF6118 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28D0F84429BE1442007E0064 /* SocarZonesViewController.swift */,
+				28943AFA29BB3EC900DF6118 /* MapViewController.swift */,
+				28D0F84129BE0602007E0064 /* FavoriteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28A789A729BF7F6E009C47BB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				28A789A829BF7F6E009C47BB /* SPM */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		28B6F95E29BC4B7700B83686 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				28B6F95F29BC4B8300B83686 /* Extension */,
+				28943AF129BB372100DF6118 /* Base */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		28B6F95F29BC4B8300B83686 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				28B6F96029BC4BAD00B83686 /* UIColor+.swift */,
+				28D0F83D29BDFD00007E0064 /* Reactive+.swift */,
+				28D0F84E29BF1FA7007E0064 /* UIFont+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		28D0F83B29BDF98C007E0064 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				28B6F96429BDA47100B83686 /* ZonesEntity.swift */,
+				28D0F84A29BE1ACE007E0064 /* ZoneCarsEntity.swift */,
+				282328CB29BF883F000B032F /* FavoriteZoneEntity.swift */,
+				282328CF29BFD859000B032F /* SocarZoneDataEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		28D0F84029BDFD8F007E0064 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				28943AF729BB3E7100DF6118 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		28D0F84329BE0D8E007E0064 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D0F85029BF2844007E0064 /* CarInfoTableViewCell.swift */,
+				28A789A329BF4049009C47BB /* SocarZoneHeaderView.swift */,
+				28A789A529BF78BA009C47BB /* FavoriteTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28943AB929BB36FA00DF6118 /* SocarProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28943AE729BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProject" */;
+			buildPhases = (
+				28943AB629BB36FA00DF6118 /* Sources */,
+				28943AB729BB36FA00DF6118 /* Frameworks */,
+				28943AB829BB36FA00DF6118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocarProject;
+			packageProductDependencies = (
+				282328CD29BF8A3E000B032F /* SPM */,
+			);
+			productName = SocarProject;
+			productReference = 28943ABA29BB36FA00DF6118 /* SocarProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28943AD229BB36FB00DF6118 /* SocarProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28943AEA29BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProjectTests" */;
+			buildPhases = (
+				28943ACF29BB36FB00DF6118 /* Sources */,
+				28943AD029BB36FB00DF6118 /* Frameworks */,
+				28943AD129BB36FB00DF6118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28943AD529BB36FB00DF6118 /* PBXTargetDependency */,
+			);
+			name = SocarProjectTests;
+			productName = SocarProjectTests;
+			productReference = 28943AD329BB36FB00DF6118 /* SocarProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28943ADC29BB36FB00DF6118 /* SocarProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28943AED29BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProjectUITests" */;
+			buildPhases = (
+				28943AD929BB36FB00DF6118 /* Sources */,
+				28943ADA29BB36FB00DF6118 /* Frameworks */,
+				28943ADB29BB36FB00DF6118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28943ADF29BB36FB00DF6118 /* PBXTargetDependency */,
+			);
+			name = SocarProjectUITests;
+			productName = SocarProjectUITests;
+			productReference = 28943ADD29BB36FB00DF6118 /* SocarProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28943AB229BB36FA00DF6118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					28943AB929BB36FA00DF6118 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					28943AD229BB36FB00DF6118 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 28943AB929BB36FA00DF6118;
+					};
+					28943ADC29BB36FB00DF6118 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 28943AB929BB36FA00DF6118;
+					};
+				};
+			};
+			buildConfigurationList = 28943AB529BB36FA00DF6118 /* Build configuration list for PBXProject "SocarProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28943AB129BB36FA00DF6118;
+			productRefGroup = 28943ABB29BB36FA00DF6118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28943AB929BB36FA00DF6118 /* SocarProject */,
+				28943AD229BB36FB00DF6118 /* SocarProjectTests */,
+				28943ADC29BB36FB00DF6118 /* SocarProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28943AB829BB36FA00DF6118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843EFE729BB51E60042EDB3 /* info_box_tail.png in Resources */,
+				2843EFDC29BB51E60042EDB3 /* map_pin_shadow@3x.png in Resources */,
+				2843EFEA29BB51E60042EDB3 /* map_pin.png in Resources */,
+				2843EFE329BB51E60042EDB3 /* map_pin_red.png in Resources */,
+				2843EFDB29BB51E60042EDB3 /* map_pinup@3x.png in Resources */,
+				2843EFE529BB51E60042EDB3 /* point_sprite.png in Resources */,
+				2843EFE129BB51E60042EDB3 /* map_pin@3x.png in Resources */,
+				2843EFE829BB51E60042EDB3 /* noimage256.png in Resources */,
+				2843EFEB29BB51E60042EDB3 /* map_present.png in Resources */,
+				2843EFE029BB51E60042EDB3 /* daum_copyright.png in Resources */,
+				2843EFDD29BB51E60042EDB3 /* copyright.png in Resources */,
+				2843EFD729BB51E60042EDB3 /* shadow_balloon.png in Resources */,
+				2843EFDA29BB51E60042EDB3 /* map_pin_custom@3x.png in Resources */,
+				2843EFDE29BB51E60042EDB3 /* th_line.png in Resources */,
+				2843EFE629BB51E60042EDB3 /* map_pinup_custom.png in Resources */,
+				28943ACD29BB36FB00DF6118 /* LaunchScreen.storyboard in Resources */,
+				2843EFEE29BB51E60042EDB3 /* daum_th_line.png in Resources */,
+				2843EFD529BB51E60042EDB3 /* map_pinup_custom@3x.png in Resources */,
+				28943ACA29BB36FB00DF6118 /* Assets.xcassets in Resources */,
+				2843EFE229BB51E60042EDB3 /* map_present_tracking.png in Resources */,
+				2843EFEF29BB51E60042EDB3 /* map_pin_shadow.png in Resources */,
+				2843EFE929BB51E60042EDB3 /* map_present_direction.png in Resources */,
+				2843EFED29BB51E60042EDB3 /* map_present_background_update.png in Resources */,
+				2843EFD929BB51E60042EDB3 /* detail_button.png in Resources */,
+				2843EFDF29BB51E60042EDB3 /* map_pin_red@3x.png in Resources */,
+				2843EFEC29BB51E60042EDB3 /* noimage.png in Resources */,
+				2843EFE429BB51E60042EDB3 /* info_box.png in Resources */,
+				2843EFD629BB51E60042EDB3 /* map_pin_custom.png in Resources */,
+				2843EFD829BB51E60042EDB3 /* map_pinup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943AD129BB36FB00DF6118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943ADB29BB36FB00DF6118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28943AB629BB36FA00DF6118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282328D029BFD859000B032F /* SocarZoneDataEntity.swift in Sources */,
+				28943AC829BB36FA00DF6118 /* SocarProject.xcdatamodeld in Sources */,
+				2857E26029BB9DDE001E5FE0 /* MapViewModel.swift in Sources */,
+				28D0F84729BE17AD007E0064 /* ZoneHaveCarsModel.swift in Sources */,
+				28943AFB29BB3EC900DF6118 /* MapViewController.swift in Sources */,
+				28D0F84229BE0602007E0064 /* FavoriteViewController.swift in Sources */,
+				28D0F83E29BDFD00007E0064 /* Reactive+.swift in Sources */,
+				2857E25E29BB9941001E5FE0 /* MainAPI.swift in Sources */,
+				28B6F96129BC4BAD00B83686 /* UIColor+.swift in Sources */,
+				2857E25929BB8EBE001E5FE0 /* SocarZonesModel.swift in Sources */,
+				28943AF329BB372D00DF6118 /* BaseViewController.swift in Sources */,
+				28D0F84929BE19F7007E0064 /* ZoneCarsService.swift in Sources */,
+				28D0F84D29BE1B43007E0064 /* ZoneCarsViewModel.swift in Sources */,
+				28D0F84F29BF1FA7007E0064 /* UIFont+.swift in Sources */,
+				28A789A629BF78BA009C47BB /* FavoriteTableViewCell.swift in Sources */,
+				28943ABE29BB36FA00DF6118 /* AppDelegate.swift in Sources */,
+				28A789A429BF4049009C47BB /* SocarZoneHeaderView.swift in Sources */,
+				2857E25B29BB9016001E5FE0 /* ZonesService.swift in Sources */,
+				28B6F96529BDA47100B83686 /* ZonesEntity.swift in Sources */,
+				28943AC029BB36FA00DF6118 /* SceneDelegate.swift in Sources */,
+				28943AF829BB3E7100DF6118 /* MainCoordinator.swift in Sources */,
+				282328CC29BF883F000B032F /* FavoriteZoneEntity.swift in Sources */,
+				28D0F84529BE1442007E0064 /* SocarZonesViewController.swift in Sources */,
+				28D0F85129BF2844007E0064 /* CarInfoTableViewCell.swift in Sources */,
+				28D0F84B29BE1ACE007E0064 /* ZoneCarsEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943ACF29BB36FB00DF6118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28943AD829BB36FB00DF6118 /* SocarProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28943AD929BB36FB00DF6118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28943AE229BB36FB00DF6118 /* SocarProjectUITests.swift in Sources */,
+				28943AE429BB36FB00DF6118 /* SocarProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28943AD529BB36FB00DF6118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28943AB929BB36FA00DF6118 /* SocarProject */;
+			targetProxy = 28943AD429BB36FB00DF6118 /* PBXContainerItemProxy */;
+		};
+		28943ADF29BB36FB00DF6118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28943AB929BB36FA00DF6118 /* SocarProject */;
+			targetProxy = 28943ADE29BB36FB00DF6118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28943ACB29BB36FB00DF6118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28943ACC29BB36FB00DF6118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28943AE529BB36FB00DF6118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28943AE629BB36FB00DF6118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28943AE829BB36FB00DF6118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GBZ6W5NNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocarProject/DaumMap.embeddedframework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocarProject/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 정보 제공을 허용합니까?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/noyj/Desktop/noyoungj96/SocarProject/SocarProject/Suport/KakaoMapBridgeHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28943AE929BB36FB00DF6118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GBZ6W5NNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocarProject/DaumMap.embeddedframework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocarProject/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 정보 제공을 허용합니까?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/noyj/Desktop/noyoungj96/SocarProject/SocarProject/Suport/KakaoMapBridgeHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		28943AEB29BB36FB00DF6118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocarProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocarProject";
+			};
+			name = Debug;
+		};
+		28943AEC29BB36FB00DF6118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocarProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocarProject";
+			};
+			name = Release;
+		};
+		28943AEE29BB36FB00DF6118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocarProject;
+			};
+			name = Debug;
+		};
+		28943AEF29BB36FB00DF6118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SocarProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocarProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28943AB529BB36FA00DF6118 /* Build configuration list for PBXProject "SocarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28943AE529BB36FB00DF6118 /* Debug */,
+				28943AE629BB36FB00DF6118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28943AE729BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28943AE829BB36FB00DF6118 /* Debug */,
+				28943AE929BB36FB00DF6118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28943AEA29BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28943AEB29BB36FB00DF6118 /* Debug */,
+				28943AEC29BB36FB00DF6118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28943AED29BB36FB00DF6118 /* Build configuration list for PBXNativeTarget "SocarProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28943AEE29BB36FB00DF6118 /* Debug */,
+				28943AEF29BB36FB00DF6118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		282328CD29BF8A3E000B032F /* SPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SPM;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		28943AC629BB36FA00DF6118 /* SocarProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28943AC729BB36FA00DF6118 /* SocarProject.xcdatamodel */,
+			);
+			currentVersion = 28943AC729BB36FA00DF6118 /* SocarProject.xcdatamodel */;
+			path = SocarProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28943AB229BB36FA00DF6118 /* Project object */;
+}
